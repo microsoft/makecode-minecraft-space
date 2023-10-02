@@ -1,0 +1,19 @@
+{
+    "name": "space",
+    "description": "Extension to build planets and the solar system",
+    "version": "0.0.1",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "planets.ts",
+        "sphere.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "preferredEditor": "tsprj",
+    "icon": "icon.png"
+}
