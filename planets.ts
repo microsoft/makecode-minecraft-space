@@ -34,7 +34,7 @@ namespace space {
      * Creates a solar system.
      * @param scale scale of radius of planets; eg: 1, 5; Multiplies the actual radius by (scale/3)
      */
-    //% blockId=space_solarsystem block="solar system at center $center=minecraftCreatePosition || of scale $scale"
+    //% blockId=space_solarsystem block="solar system at center $center || of scale $scale"
     //% scale.min=1 scale.max=5 scale.defl=3
     //% group="Solar System"
     //% weight=30
@@ -145,7 +145,7 @@ namespace space {
         createNeptune(neptuneCenter, Radius.Neptune * scale);
     }
 
-    //% blockId=space_planet_mercury block="mercury at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_mercury block="mercury at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=2
     //% weight=99
@@ -162,7 +162,7 @@ namespace space {
         );
     }
 
-    //% blockId=space_planet_venus block="venus at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_venus block="venus at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=6
     //% weight=98
@@ -174,7 +174,7 @@ namespace space {
         space.sphere(YELLOW_CONCRETE, center.add(pos(0, radius, 0)), radius, ShapeOperation.Outline);
     }
 
-    //% blockId=space_planet_earth block="earth at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_earth block="earth at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=6
     //% weight=97
@@ -193,7 +193,7 @@ namespace space {
         );
     }
 
-    //% blockId=space_planet_mars block="mars at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_mars block="mars at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=3
     //% weight=96
@@ -205,7 +205,7 @@ namespace space {
         space.sphere(RED_SANDSTONE, center.add(pos(0, radius, 0)), radius, ShapeOperation.Outline);
     }
 
-    //% blockId=space_planet_jupiter block="jupiter at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_jupiter block="jupiter at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=35
     //% weight=95
@@ -224,7 +224,7 @@ namespace space {
         );
     }
 
-    //% blockId=space_planet_saturn block="saturn at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_saturn block="saturn at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=29
     //% weight=94
@@ -248,7 +248,7 @@ namespace space {
 
     }
 
-    //% blockId=space_planet_uranus block="uranus at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_uranus block="uranus at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=13
     //% weight=93
@@ -265,7 +265,7 @@ namespace space {
         );
     }
 
-    //% blockId=space_planet_neptune block="neptune at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_planet_neptune block="neptune at center $center || of radius $radius"
     //% group="Planets"
     //% radius.defl=12
     //% weight=92
@@ -277,7 +277,7 @@ namespace space {
         space.sphere(BLUE_CONCRETE, center.add(pos(0, radius, 0)), radius, ShapeOperation.Outline);
     }
 
-    //% blockId=space_stars_sun block="sun at center $center=minecraftCreatePosition || of radius $radius"
+    //% blockId=space_stars_sun block="sun at center $center || of radius $radius"
     //% radius.defl=50
     //% group="Stars"
     export function createSun(
