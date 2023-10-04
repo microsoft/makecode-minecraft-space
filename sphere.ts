@@ -53,7 +53,8 @@ namespace space {
      * @param radius the radius of the sphere, eg: 5
      */
     //% blockId=space_sphereRandomBlocks
-    //% block="sphere of random blocks from $blockList|center $center=minecraftCreatePosition|radius $radius|$operator"
+    //% block="sphere of random blocks from $blockList|center $center|radius $radius|$operator"
+    //% center.shadow=minecraftCreatePosition
     //% blockList.shadow="lists_create_with"
     //% blockList.defl="minecraftBlock"
     //% blockExternalInputs=1
@@ -107,7 +108,8 @@ namespace space {
      * @param radius the radius of the sphere, eg: 5
      */
     //% blockId=space_sphereRandomLayerBlocks
-    //% block="sphere of random layers from $blockList|center $center=minecraftCreatePosition|radius $radius|around $orientation|in order of blocks $useBlockOrder|$operator"
+    //% block="sphere of random layers from $blockList|center $center|radius $radius|around $orientation|in order of blocks $useBlockOrder|$operator"
+    //% center.shadow=minecraftCreatePosition
     //% blockList.shadow="lists_create_with"
     //% blockList.defl="minecraftBlock"
     //% useBlockOrder.defl=false
