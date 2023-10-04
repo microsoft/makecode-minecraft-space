@@ -1,6 +1,6 @@
 ## MakeCode for Minecraft Education Extension
 
-This repository is an approved **extension** in Makecode for Minecraft Education. 
+This repository is an approved **extension** in Microsoft MakeCode for Minecraft Education. 
 
 ## Overview
 
