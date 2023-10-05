@@ -39,6 +39,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% group="Solar System"
     //% weight=30
+    //% help=github:makecode-minecraft-space/docs/solar-system
     export function createSolarSystem(center: Position, scale?: number): void {
         center = center.toWorld();
         scale = scale / 3;
@@ -151,6 +152,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=2
     //% weight=99
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createMercury(
         center: Position,
         radius?: number
@@ -169,6 +171,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=6
     //% weight=98
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createVenus(
         center: Position,
         radius?: number
@@ -182,6 +185,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=6
     //% weight=97
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createEarth(
         center: Position,
         radius?: number
@@ -202,6 +206,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=3
     //% weight=96
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createMars(
         center: Position,
         radius?: number
@@ -215,6 +220,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=35
     //% weight=95
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createJupiter(
         center: Position,
         radius?: number
@@ -235,6 +241,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=29
     //% weight=94
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createSaturn(
         center: Position,
         radius?: number
@@ -260,6 +267,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=13
     //% weight=93
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createUranus(
         center: Position,
         radius?: number
@@ -278,6 +286,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=12
     //% weight=92
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createNeptune(
         center: Position,
         radius?: number
@@ -290,6 +299,7 @@ namespace space {
     //% radius.defl=50
     //% center.shadow=minecraftCreatePosition
     //% group="Stars"
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createSun(
         center: Position,
         radius?: number

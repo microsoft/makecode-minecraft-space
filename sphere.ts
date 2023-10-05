@@ -60,6 +60,7 @@ namespace space {
     //% blockExternalInputs=1
     //% help=shapes/sphere
     //% group="Shapes"
+    //% help=github:makecode-minecraft-space/docs/standard-spheres
     export function randomSphere(
         blockList: number[],
         center: Position,
@@ -116,6 +117,7 @@ namespace space {
     //% blockExternalInputs=1
     //% help=shapes/sphere
     //% group="Shapes"
+    //% help=github:makecode-minecraft-space/docs/layered-sphere
     export function randomLayerSphere(
         blockList: number[],
         center: Position,
