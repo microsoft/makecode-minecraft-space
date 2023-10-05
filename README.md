@@ -1,14 +1,17 @@
-# Project
+## MakeCode for Minecraft Education Extension
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repository is an approved **extension** in Microsoft MakeCode for Minecraft Education. 
 
-As the maintainer of this project, please make a few updates:
+## Overview
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+<img src='./icon.png'>
+
+This extension holds anything space! The blocks in this extension can help you build your own solar system or individual planets! There are a lot of other celestial bodies that you may want to build in class as well, so you can also make your own spheres!
+
+Running these blocks will start building whatever planet or celestial body you specify.
+
+**Note** 
+The solar system and the planets are large!! This extension builds the planets and solar system for you, but it will take some time.
 
 ## Contributing
 
