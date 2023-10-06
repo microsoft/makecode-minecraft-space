@@ -3,7 +3,10 @@ namespace space {
      * Fill a sphere of blocks at a center position.
      * This is basically the shapes' sphere function with small adjustments 
      * to how the blocks are placed.
+     * @param blockList list of block types that builds the sphere
+     * @param center the position where the center of the sphere will be
      * @param radius the radius of the sphere, eg: 5
+     * @param operator how each slice of the sphere will be built: Hollow, Replace, or Outline
      */
     export function sphere(
         block: number,
@@ -50,8 +53,11 @@ namespace space {
 
     /**
      * Fill a sphere of blocks chosen at random from the block list provided, at a center position.
+     * @param blockList list of block types that builds the sphere
+     * @param center the position where the center of the sphere will be
      * @param radius the radius of the sphere, eg: 5
-     */
+     * @param operator how each slice of the sphere will be built: Hollow, Replace, or Outline
+    */
     //% blockId=space_sphereRandomBlocks
     //% block="sphere of random blocks from $blockList|center $center|radius $radius|$operator"
     //% center.shadow=minecraftCreatePosition
@@ -106,7 +112,11 @@ namespace space {
 
     /**
      * Fill a sphere of blocks where block for each layer is chosen at random or in order from the block list provided, at a center position.
+     * @param blockList list of block types that builds the sphere
+     * @param center the position where the center of the sphere will be
      * @param radius the radius of the sphere, eg: 5
+     * @param orientation the axis on which the sphere will build either X, Y, or Z
+     * @param useBlockOrder each slice of the sphere will use the order of the blocklist if true or random if false
      */
     //% blockId=space_sphereRandomLayerBlocks
     //% block="sphere of random layers from $blockList|center $center|radius $radius|around $orientation|in order of blocks $useBlockOrder|$operator"
