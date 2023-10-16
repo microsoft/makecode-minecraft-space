@@ -3,7 +3,7 @@
 Build a sphere to model a different celestial body.
 
 ```sig
-    space.sphere(GOLD_BLOCK, pos(0, 10, 0), 10, ShapeOperation.Outline);
+space.sphere(GOLD_BLOCK, pos(0, 10, 0), 10, ShapeOperation.Outline);
 
 ```
 ```sig

@@ -21,7 +21,7 @@ space.createSaturn(pos(0, 0, 0), 29)
 
 * **center**: the position of the center of the planet that you are building. This is ~0 ~0 ~0 by default, to ensure that construction will start near the player. There are some internal offsets that happen so the planets are above ground. The planets will start building the radius' distance away from the player so the center is truly ~0 ~0 ~0.
 
-* **radius**: optional parameter that defines the size of the planet. The default value is the radius that is used if radius is not specified by the user. The default radius per planet was found by scaling their actual radius down.
+* **radius**: optional parameter that defines the size of the planet. The default value for each planet was found by scaling their actual radius down.
 
 ```package
 
