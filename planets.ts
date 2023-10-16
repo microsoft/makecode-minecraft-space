@@ -32,6 +32,7 @@ namespace space {
 
     /**
      * Creates a solar system.
+     * @param center the position at which the center of the solar system will be
      * @param scale scale of radius of planets; eg: 1, 5; Multiplies the actual radius by (scale/3)
      */
     //% blockId=space_solarsystem block="solar system at center $center || of scale $scale"
@@ -39,6 +40,7 @@ namespace space {
     //% center.shadow=minecraftCreatePosition
     //% group="Solar System"
     //% weight=30
+    //% help=github:makecode-minecraft-space/docs/solar-system
     export function createSolarSystem(center: Position, scale?: number): void {
         center = center.toWorld();
         scale = scale / 3;
@@ -146,11 +148,17 @@ namespace space {
         createNeptune(neptuneCenter, Radius.Neptune * scale);
     }
 
+    /**
+     * Builds the planet Mercury with gray concrete.
+     * @param center the position where the center of Mercury will be
+     * @param radius the radius of Mercury scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_mercury block="mercury at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=2
     //% weight=99
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createMercury(
         center: Position,
         radius?: number
@@ -164,11 +172,17 @@ namespace space {
         );
     }
 
+    /**
+     * Builds the planet Venus with yellow concrete.
+     * @param center the position where the center of Venus will be
+     * @param radius the radius of Venus scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_venus block="venus at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=6
     //% weight=98
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createVenus(
         center: Position,
         radius?: number
@@ -177,11 +191,17 @@ namespace space {
         space.sphere(YELLOW_CONCRETE, center.add(pos(0, radius, 0)), radius, ShapeOperation.Outline);
     }
 
+    /**
+     * Builds the planet Earth with light blue concrete, grass, and white concrete.
+     * @param center the position where the center of Earth will be
+     * @param radius the radius of Earth scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_earth block="earth at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=6
     //% weight=97
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createEarth(
         center: Position,
         radius?: number
@@ -197,11 +217,17 @@ namespace space {
         );
     }
 
+    /**
+     * Builds the planet Mars with red sandstone.
+     * @param center the position where the center of Mars will be
+     * @param radius the radius of Mars scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_mars block="mars at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=3
     //% weight=96
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createMars(
         center: Position,
         radius?: number
@@ -210,11 +236,17 @@ namespace space {
         space.sphere(RED_SANDSTONE, center.add(pos(0, radius, 0)), radius, ShapeOperation.Outline);
     }
 
+    /**
+     * Builds the planet Jupiter with orange and white concrete.
+     * @param center the position where the center of Jupiter will be
+     * @param radius the radius of Jupiter scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_jupiter block="jupiter at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=35
     //% weight=95
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createJupiter(
         center: Position,
         radius?: number
@@ -230,11 +262,17 @@ namespace space {
         );
     }
 
+    /**
+     * Builds the planet Saturn with gold blocks.
+     * @param center the position where the center of Saturn will be
+     * @param radius the radius of Saturn scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_saturn block="saturn at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=29
     //% weight=94
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createSaturn(
         center: Position,
         radius?: number
@@ -255,11 +293,17 @@ namespace space {
 
     }
 
+    /**
+     * Builds the planet Uranus with light blue concrete.
+     * @param center the position where the center of Uranus will be
+     * @param radius the radius of Uranus scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_uranus block="uranus at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=13
     //% weight=93
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createUranus(
         center: Position,
         radius?: number
@@ -273,11 +317,17 @@ namespace space {
         );
     }
 
+    /**
+     * Builds the planet Neptune with blue concrete.
+     * @param center the position where the center of Neptune will be
+     * @param radius the radius of Neptune scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_planet_neptune block="neptune at center $center || of radius $radius"
     //% group="Planets"
     //% center.shadow=minecraftCreatePosition
     //% radius.defl=12
     //% weight=92
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createNeptune(
         center: Position,
         radius?: number
@@ -286,10 +336,16 @@ namespace space {
         space.sphere(BLUE_CONCRETE, center.add(pos(0, radius, 0)), radius, ShapeOperation.Outline);
     }
 
+    /**
+     * Builds the Sun with glowstone.
+     * @param center the position where the center of the Sun will be
+     * @param radius the radius of the Sun scaled for performance. Change this to change the size of the planet.
+    */
     //% blockId=space_stars_sun block="sun at center $center || of radius $radius"
     //% radius.defl=50
     //% center.shadow=minecraftCreatePosition
     //% group="Stars"
+    //% help=github:makecode-minecraft-space/docs/build-planet
     export function createSun(
         center: Position,
         radius?: number

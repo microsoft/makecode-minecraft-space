@@ -13,6 +13,15 @@ Running these blocks will start building whatever planet or celestial body you s
 **Note** 
 The solar system and the planets are large!! This extension builds the planets and solar system for you, but it will take some time.
 
+## Contributors
+We want to express our gratitude to the following individuals who have contributed to this project:
+- [@maheshmj24](https://github.com/maheshmj24)
+- [@PNMENON](https://github.com/PNMENON)
+- [@kzkalra](https://github.com/kzkalra)
+- [@aakashbhardwaj619](https://github.com/aakashbhardwaj619)
+
+Thanks for your valuable contributions! Your help has been greatly appreciated!
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a

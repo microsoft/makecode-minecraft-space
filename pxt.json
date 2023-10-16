@@ -9,7 +9,11 @@
     "files": [
         "planets.ts",
         "sphere.ts",
-        "README.md"
+        "README.md",
+        "docs/build-planet.md",
+        "docs/solar-system.md",
+        "docs/standard-spheres.md",
+        "docs/layered-sphere.md"
     ],
     "testFiles": [
         "test.ts"
