@@ -16,7 +16,7 @@ Spheres are constructed as slices of touching circles. A random layered sphere a
 
 * **radius**: parameter that defines the size of the sphere
 
-* **orientation**: the direction in which the slices will go. Regular spheres will build from left to right. By changing the axis, you can have the slices build bottom up or forward to back.
+* **orientation**: the direction in which the slices will go. By default, spheres will build from left to right. By changing the axis, you can have the slices build bottom up or forward to back.
 
 * **usBlockOrder**: if true, the sphere slices will be ordered following the block order in `blockList`. If false, each slice will be a random order of the blocks that you defined in `blockList`.
 
