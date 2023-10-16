@@ -16,6 +16,9 @@ The solar system and the planets are large!! This extension builds the planets a
 ## Contributors
 We want to express our gratitude to the following individuals who have contributed to this project:
 - [@maheshmj24](https://github.com/maheshmj24)
+- [@PNMENON](https://github.com/PNMENON)
+- [@kzkalra](https://github.com/kzkalra)
+- [@aakashbhardwaj619](https://github.com/aakashbhardwaj619)
 
 Thanks for your valuable contributions! Your help has been greatly appreciated!
 
