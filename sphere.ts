@@ -118,8 +118,8 @@ namespace space {
      * @param orientation the axis on which the sphere will build: either X, Y, or Z
      * @param useBlockOrder each slice of the sphere will use the order of the blocklist if true or random if false
      */
-    //% blockId=space_sphereRandomLayerBlocks
-    //% block="sphere of random layers from $blockList|center $center|radius $radius|around $orientation|in order of blocks $useBlockOrder|$operator"
+    //% blockId=space_sphereCustomLayerBlocks
+    //% block="sphere of custom layers from $blockList|center $center|radius $radius|around $orientation|in random order $useBlockOrder|$operator"
     //% center.shadow=minecraftCreatePosition
     //% blockList.shadow="lists_create_with"
     //% blockList.defl="minecraftBlock"
@@ -128,7 +128,7 @@ namespace space {
     //% help=shapes/sphere
     //% group="Shapes"
     //% help=github:makecode-minecraft-space/docs/layered-sphere
-    export function randomLayerSphere(
+    export function customLayerSphere(
         blockList: number[],
         center: Position,
         radius: number,
