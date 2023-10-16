@@ -115,7 +115,7 @@ namespace space {
      * @param blockList list of block types that builds the sphere
      * @param center the position where the center of the sphere will be
      * @param radius the radius of the sphere, eg: 5
-     * @param orientation the axis on which the sphere will build either X, Y, or Z
+     * @param orientation the axis on which the sphere will build: either X, Y, or Z
      * @param useBlockOrder each slice of the sphere will use the order of the blocklist if true or random if false
      */
     //% blockId=space_sphereRandomLayerBlocks
