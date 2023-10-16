@@ -338,7 +338,7 @@ namespace space {
 
     /**
      * Builds the Sun with glowstone.
-     * @param center the position where the center of the sun will be
+     * @param center the position where the center of the Sun will be
      * @param radius the radius of the Sun scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_stars_sun block="sun at center $center || of radius $radius"
