@@ -150,7 +150,7 @@ namespace space {
 
     /**
      * Builds the planet Mercury with gray concrete.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Mercury will be
      * @param radius the radius of Mercury scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_mercury block="mercury at center $center || of radius $radius"
@@ -174,7 +174,7 @@ namespace space {
 
     /**
      * Builds the planet Venus with yellow concrete.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Venus will be
      * @param radius the radius of Venus scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_venus block="venus at center $center || of radius $radius"
@@ -193,7 +193,7 @@ namespace space {
 
     /**
      * Builds the planet Earth with light blue concrete, grass, and white concrete.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Earth will be
      * @param radius the radius of Earth scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_earth block="earth at center $center || of radius $radius"
@@ -219,7 +219,7 @@ namespace space {
 
     /**
      * Builds the planet Mars with red sandstone.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Mars will be
      * @param radius the radius of Mars scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_mars block="mars at center $center || of radius $radius"
@@ -238,7 +238,7 @@ namespace space {
 
     /**
      * Builds the planet Jupiter with orange and white concrete.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Jupiter will be
      * @param radius the radius of Jupiter scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_jupiter block="jupiter at center $center || of radius $radius"
@@ -264,7 +264,7 @@ namespace space {
 
     /**
      * Builds the planet Saturn with gold blocks.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Saturn will be
      * @param radius the radius of Saturn scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_saturn block="saturn at center $center || of radius $radius"
@@ -295,7 +295,7 @@ namespace space {
 
     /**
      * Builds the planet Uranus with light blue concrete.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Uranus will be
      * @param radius the radius of Uranus scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_uranus block="uranus at center $center || of radius $radius"
@@ -319,7 +319,7 @@ namespace space {
 
     /**
      * Builds the planet Neptune with blue concrete.
-     * @param center the position where the center of the planet will be
+     * @param center the position where the center of Neptune will be
      * @param radius the radius of Neptune scaled for performance. Change this to change the size of the planet.
     */
     //% blockId=space_planet_neptune block="neptune at center $center || of radius $radius"
