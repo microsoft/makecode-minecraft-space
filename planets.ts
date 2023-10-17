@@ -212,7 +212,7 @@ namespace space {
             center.add(pos(0, radius, 0)),
             radius,
             Axis.Y,
-            true,
+            false,
             ShapeOperation.Outline
         );
     }
@@ -257,7 +257,7 @@ namespace space {
             center.add(pos(0, radius, 0)),
             radius,
             Axis.Y,
-            true,
+            false,
             ShapeOperation.Outline
         );
     }
