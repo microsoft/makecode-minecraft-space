@@ -118,22 +118,22 @@ namespace space {
      * @param orientation the axis on which the sphere will build: either X, Y, or Z
      * @param useBlockOrder each slice of the sphere will use the order of the blocklist if true or random if false
      */
-    //% blockId=space_sphereRandomLayerBlocks
-    //% block="sphere of random layers from $blockList|center $center|radius $radius|around $orientation|in order of blocks $useBlockOrder|$operator"
+    //% blockId=space_sphereCustomLayerBlocks
+    //% block="sphere of custom layers from $blockList|center $center|radius $radius|around $orientation|in random order $useRandomOrder|$operator"
     //% center.shadow=minecraftCreatePosition
     //% blockList.shadow="lists_create_with"
     //% blockList.defl="minecraftBlock"
-    //% useBlockOrder.defl=false
+    //% useRandomOrder.defl=false
     //% blockExternalInputs=1
     //% help=shapes/sphere
     //% group="Shapes"
     //% help=github:makecode-minecraft-space/docs/layered-sphere
-    export function randomLayerSphere(
+    export function customLayerSphere(
         blockList: number[],
         center: Position,
         radius: number,
         orientation: Axis,
-        useBlockOrder: boolean,
+        useRandomOrder: boolean,
         operator: ShapeOperation
     ) {
         if (radius <= 0) return;
@@ -149,11 +149,10 @@ namespace space {
 
         for (let x = -radius; x <= radius; ++x) {
             let blockForCurrentLayer: Block;
-            if (useBlockOrder) {
-                blockForCurrentLayer =
-                    blockList[Math.abs(x) % blockList.length];
-            } else {
+            if (useRandomOrder) {
                 blockForCurrentLayer = blockList._pickRandom();
+            } else {
+                blockForCurrentLayer = blockList[Math.abs(x) % blockList.length];
             }
             const x2 = x * x;
             for (let y = -radius; y <= radius; ++y) {

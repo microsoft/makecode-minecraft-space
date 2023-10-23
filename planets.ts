@@ -207,12 +207,12 @@ namespace space {
         radius?: number
     ): void {
         if (radius <= 0) return;
-        space.randomLayerSphere(
+        space.customLayerSphere(
             [LIGHT_BLUE_CONCRETE, GRASS, WHITE_CONCRETE],
             center.add(pos(0, radius, 0)),
             radius,
             Axis.Y,
-            true,
+            false,
             ShapeOperation.Outline
         );
     }
@@ -252,12 +252,12 @@ namespace space {
         radius?: number
     ): void {
         if (radius <= 0) return;
-        space.randomLayerSphere(
+        space.customLayerSphere(
             [ORANGE_CONCRETE, WHITE_CONCRETE],
             center.add(pos(0, radius, 0)),
             radius,
             Axis.Y,
-            true,
+            false,
             ShapeOperation.Outline
         );
     }
