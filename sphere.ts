@@ -1,4 +1,6 @@
 namespace space {
+    const _spaceBuilder = new builder.Builder();
+
     /**
      * Fill a sphere of blocks at a center position.
      * This is basically the shapes' sphere function with small adjustments 
@@ -40,11 +42,11 @@ namespace space {
                         x2 + y2 + z2 >= radiuso
                     ) {
                         // on the "crust"
-                        builder.teleportTo(p);
-                        builder.place(block);
+                        _spaceBuilder.teleportTo(p);
+                        _spaceBuilder.place(block);
                     } else if (operator == ShapeOperation.Hollow) {
-                        builder.teleportTo(p);
-                        builder.place(Block.Air);
+                        _spaceBuilder.teleportTo(p);
+                        _spaceBuilder.place(Block.Air);
                     }
                 }
             }
@@ -99,11 +101,11 @@ namespace space {
                         x2 + y2 + z2 >= radiuso
                     ) {
                         // on the "crust"
-                        builder.teleportTo(p);
-                        builder.place(blockList._pickRandom());
+                        _spaceBuilder.teleportTo(p);
+                        _spaceBuilder.place(blockList._pickRandom());
                     } else if (operator == ShapeOperation.Hollow) {
-                        builder.teleportTo(p);
-                        builder.place(Block.Air);
+                        _spaceBuilder.teleportTo(p);
+                        _spaceBuilder.place(Block.Air);
                     }
                 }
             }
@@ -175,11 +177,11 @@ namespace space {
                         x2 + y2 + z2 >= radiuso
                     ) {
                         // on the "crust"
-                        builder.teleportTo(p);
-                        builder.place(blockForCurrentLayer);
+                        _spaceBuilder.teleportTo(p);
+                        _spaceBuilder.place(blockForCurrentLayer);
                     } else if (operator == ShapeOperation.Hollow) {
-                        builder.teleportTo(p);
-                        builder.place(Block.Air);
+                        _spaceBuilder.teleportTo(p);
+                        _spaceBuilder.place(Block.Air);
                     }
                 }
             }
