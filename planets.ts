@@ -1,4 +1,4 @@
-//% color=#0e0763 icon="\uf005"
+//% color=#0e0763 icon="\uf135" weight=55
 namespace space {
     // Radius of planets
     // Radius in KMs divided by 1000
