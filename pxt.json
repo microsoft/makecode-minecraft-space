@@ -13,7 +13,8 @@
         "docs/build-planet.md",
         "docs/solar-system.md",
         "docs/standard-spheres.md",
-        "docs/layered-sphere.md"
+        "docs/layered-sphere.md",
+        "_locales/ja/makecode-minecraft-space-strings.json"
     ],
     "testFiles": [
         "test.ts"
