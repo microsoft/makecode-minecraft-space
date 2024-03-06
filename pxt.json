@@ -14,6 +14,7 @@
         "docs/solar-system.md",
         "docs/standard-spheres.md",
         "docs/layered-sphere.md",
+        "_locales/ja/makecode-minecraft-space-jsdoc-strings.json",
         "_locales/ja/makecode-minecraft-space-strings.json"
     ],
     "testFiles": [
