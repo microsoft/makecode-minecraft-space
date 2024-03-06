@@ -118,7 +118,7 @@ namespace space {
      * @param center the position where the center of the sphere will be
      * @param radius the radius of the sphere, eg: 5
      * @param orientation the axis on which the sphere will build: either X, Y, or Z
-     * @param useBlockOrder each slice of the sphere will use the order of the blocklist if true or random if false
+     * @param useRandomOrder each slice of the sphere will use random of the blocklist if true or the order if false
      */
     //% blockId=space_sphereCustomLayerBlocks
     //% block="sphere of custom layers from $blockList|center $center|radius $radius|around $orientation|in random order $useRandomOrder|$operator"
