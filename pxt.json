@@ -1,5 +1,6 @@
 {
     "name": "makecode-minecraft-space",
+    "displayName": "Space",
     "description": "Extension to build planets and the solar system",
     "version": "0.0.2",
     "dependencies": {
