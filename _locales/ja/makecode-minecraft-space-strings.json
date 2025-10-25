@@ -1,0 +1,20 @@
+{
+    "space.createEarth|block": "$centerを中心に地球を作成する||半径$radius",
+    "space.createJupiter|block": "$centerを中心に木星を作成する||半径$radius",
+    "space.createMars|block": "$centerを中心に火星を作成する||半径$radius",
+    "space.createMercury|block": "$centerを中心に水星を作成する||半径$radius",
+    "space.createNeptune|block": "$centerを中心に海王星を作成する||半径$radius",
+    "space.createSaturn|block": "$centerを中心に土星を作成する||半径$radius",
+    "space.createSolarSystem|block": "$centerを中心に太陽系を作成する||縮尺$scale",
+    "space.createSun|block": "$centerを中心に太陽を作成する||半径$radius",
+    "space.createUranus|block": "$centerを中心に天王星を作成する||半径$radius",
+    "space.createVenus|block": "$centerを中心に金星を作成する||半径$radius",
+    "space.customLayerSphere|block": "$blockListのブロックを層状に使って球を作成する|中心$center|半径$radius|層の方向$orientation|ランダム順$useRandomOrder|モード$operator",
+    "space.randomSphere|block": "$blockListのブロックをランダムに使って球を作成する|中心$center|半径$radius|モード$operator",
+    "space|block": "宇宙",
+    "{id:category}Space": "宇宙",
+    "{id:group}Solar System": "太陽系",
+    "{id:group}Planets": "惑星",
+    "{id:group}Stars": "恒星",
+    "{id:group}Shapes": "図形"
+}
